@@ -1,2 +1,3 @@
 # adesogs
-pagina web basada en ajax
+Pagina web responsive basada en ajax
+Proyecto en funcionamiento en https://www.adesogs.com/
