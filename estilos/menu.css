@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{	margin:0;
+	padding:0;
+	}
+
+.particula{ 
+	width:92%; 
+	height:700px;
+	position: absolute;
+	left:4%;
+	z-index: 2;
+	}
+header nav{
+	width:78%;
+	margin:10px 2% 10px 0;
+	left:-100%;/*esto lo que hace es mover el nav hacia la izquierda fuera de la vision para hacer una transicion hacia la derecha */
+	max-width:1366px;
+	text-align:center;
+	float: right;
+	}
+.menu_bar{
+	display:none;
+	}
+.logo{
+	margin-left: 5%;
+	width: 15%;
+	box-sizing: border-box;	
+	z-index: 20;
+}
+
+/*posicion y aspecto de menu detallado*/
+header nav ul{
+	overflow:hidden;
+	list-style:none;
+	display:inline-block;/*con es tipo de display me es posible centrar los ul en la pagina*/
+	float: right;
+	}
+	
+header nav ul li{
+	float:left;
+	}
+
+header nav ul li a{
+	padding:20px 10px;
+	display:block;
+	text-decoration:none;
+	color:#FFF;
+	font-size: 17px;
+	z-index:20;
+	text-align: right;
+	border-radius: 35px 0 35px 0;
+	}
+	
+header nav ul li a span{
+	margin-right:10px;
+	}
+header nav ul li a#pop:hover{
+	cursor: pointer;
+}

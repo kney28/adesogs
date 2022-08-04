@@ -1,0 +1,94 @@
+@charset "utf-8";
+html,body#portafolio{
+	margin: 0;
+	padding: 0;
+}
+.porta1 img{
+	margin-left: 10%;
+	margin-top: 90px;
+	width: 30%;
+	float: left;
+}
+.porta2{
+	margin-right: 20%;
+	margin-top: 15%;
+	width: 40%;
+	float: left;
+	text-align: justify;
+	font-size: 32px;
+	color: rgb(70,70,70);
+	font-family: "ejecutiva";
+	font-style: italic;
+}
+.porta3{
+	width: 30%;
+	margin: 70px 0 70px 35%;
+	background-image: url(../img/fondo.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 500px 400px;
+	background-repeat: no-repeat;
+	text-align: justify;
+	font-size: 15px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	color: rgb(20,20,20);
+	font-family: "bell"
+}
+.porta3 p{
+	background: rgba(200,200,200,0.5);
+	border-radius: 20px;
+	padding: 90px 20px;
+}
+table{	
+	border-bottom: 10px;
+	border-spacing: 0px 2px;
+	width: 90%;
+	margin-left: 5%;
+	empty-cells: hide;
+	box-sizing: border-box;
+}
+th{
+	font-weight: normal;
+	padding: 8px;
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    box-sizing: border-box;
+}
+td {
+	padding: 8px;
+	background: #e8edff;  
+    color: #669;
+    box-sizing: border-box;
+}
+tr{
+	border-bottom: 3px solid #000;
+}
+tr:hover td{
+	background: #d0dafd; 
+	color: #339; 
+}
+.col2{
+	background: #039D1A;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+.col3{
+	background: #D30000;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+.novedad{	
+	background: transparent;
+	color: #039;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: italic;
+	border-radius: 12px;
+	border: 1px solid rgba(50,120,120,0.2);
+}

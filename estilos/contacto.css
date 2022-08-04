@@ -1,0 +1,170 @@
+@charset "utf-8";
+*{ margin:0;
+padding:0;
+font-family:Roboto;}
+
+#c_contenedor{
+	display:none;
+	width:100%;
+	height:100%;
+	position:fixed;
+	z-index:30;
+	background-color:#000;
+	opacity:0.8;
+	cursor: pointer;
+	}
+#c_contenedor:hover{
+	background-color: rgb(0,0,6);
+}
+.ya, .grandioso{
+	width: 30%;
+	left: 66%;
+	top: 140px;
+	position: fixed;
+	text-align: center;
+	font-family: "animada";
+	font-size: 25px;
+	color: rgb(254, 195, 0);
+	z-index: 32;
+	display: none;
+}
+.paquete{
+	width: 30%;
+	left: 2%;
+	top: 140px;
+	position: fixed;
+	text-align: center;
+	font-family: "animada";
+	font-size: 25px;
+	color: rgb(254, 195, 0);
+	z-index: 32;
+	display: none;
+}
+#cerrar{
+	display:none;
+	float:right;
+	font-size:30px;
+	color: #303F9F;
+	}	
+#cerrar:hover{ color:#F40000;}
+#cerrar:target{color:#F40000;}
+h1{
+	padding: 15px 0;
+	margin-bottom:3px;
+	box-sizing: border-box;
+	color: rgb(90,90,100);
+	text-align: left;
+	background-image: url(../img/carta.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 80px;
+}
+#modal{
+	display:none;
+	width:30%;
+	position:fixed;
+	top:2%;
+	left:35%;
+	background-image: url(../textura/abstracto/abstracto1.png);
+	z-index:31;
+	box-shadow:0px 0px 20px 5px;
+	padding:20px;
+	box-sizing:border-box;
+	min-width:315px;	
+	}
+.input-group{width:100%; text-align:left;}
+#textarea{resize:none; height:110px;}
+/*+++++++++++++++++estilos para el checkbox+++++++++++++++++++*/
+.check{ margin:4px 0px 4px 0px;}
+.check #terminos {display:none;}
+.check label {
+	left:0.6%;
+	color:#000;
+	padding:5px 15px 5px 51px;
+	position:relative;
+	cursor:pointer;
+	display:inline-block;
+	-webkit-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	transition:all .5s ease;
+	}
+.check label:hover{ background-color:#D0ECE7;}
+.check label:before{
+	content:"";
+	width:17px;
+	height:17px;
+	display:inline-block;
+	border:3px solid #1F618D;
+	position:absolute;
+	left:15px;
+	top:4px;
+	}
+.formulario input[type="checkbox"]:checked + label{
+	padding:5px 17px;
+	background:#037e1C;
+	color:#FFF;
+	}
+.formulario input[type="checkbox"]:checked + label:before{
+	display:none;	
+	}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+#nombre, #email, #telefono, #asunto, #textarea {
+   font-family:Tahoma, Geneva, sans-serif;
+   font-size: 100%;
+   color: #303F9F;
+   width: 100%;
+   outline: none;
+   padding: 15px;
+   background: none;
+   border: none;
+   border-bottom: 2px solid #BBDEFB; 
+   box-sizing:border-box;
+   -o-outline:none;
+   -o-border:none;
+   -o-border-bottom:2px solid #BBDEFB;
+	}
+#email, #asunto{ padding:15px 90px}/*padding inicial para mover el placeholder a la derecha*/
+
+#nombre:focus, #email:focus, #telefono:focus, #asunto:focus, #textarea:focus{
+   outline: none;
+   border-bottom: 2px solid #303F9F;
+   }
+   
+/*PROPIEDADES DE LOS LABEL PARA RELIZAR LA ANIMACION A TRAVES DE JAVASCRIPT*/
+.label1, .label2, .label3, .label4, .label5{
+	position:relative;
+	top:40px;/*esto hace que el texto adecue su tamaño al de la ventana*/
+	font-size:100%;
+	-webkit-transition:top .5s, font-size .5s, left .5s;
+	}
+.label6{ font-size:100%;}
+/***************************************************************************/
+.checkbox{
+	margin:20px auto;
+	}
+
+#bt_submit{  
+background: #303F9F;
+border-radius: 1px;
+border: 2px solid #f2f2f2;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-family: "Roboto";
+font-size: 16px;
+padding: 15px;
+box-sizing:border-box;
+width: 100%;
+}
+#bt_submit:hover{background:#039;}
+a[href^="politica-privacidad.pdf"]{
+	float: left;
+	width: 100%;
+	font-size: 11px;
+	padding: 2px 0px;
+	text-align: center;
+
+}

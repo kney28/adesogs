@@ -1,0 +1,60 @@
+.adesogs{
+visibility: hidden;
+}
+.carga{
+	position: absolute;
+	top: 0;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+.logo_carga{
+	width: 100%;
+	float: left;
+}
+.logo_carga img{
+	width: 15%;
+	margin:20% 42.5% 0 42.5%;
+	opacity: 0.1;
+	content: "";
+	animation: logo 3s infinite;
+}
+.preloader{
+	width: 10%;
+	float: left;
+	margin:1% 40% 0 40%;
+	content: "";
+	animation: loader 4s infinite;
+}
+.preloader img{
+	width: 100%;
+	}
+.cerrar{
+	transform: translateY(-100%);
+	transition: all 0.5s;
+}
+.ocultar{
+	display: none;
+}
+.mostrar{
+	visibility: visible;
+}
+.index{
+	background-image:url(../img/fondo.svg);
+	background-size: 3000px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:100%;
+}
+@keyframes logo{
+	
+	40%{
+		opacity: 0.9;
+	}
+}
+@keyframes loader{
+	40%{
+		margin:0% 50% 0 50%;
+	}
+}

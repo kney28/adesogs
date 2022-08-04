@@ -1,0 +1,528 @@
+/******RESPONSIVE DEL ANCHO PARA LA VENTANA MODAL "CONTACTO"********/
+@media (max-width:736px) and (orientation:landscape){/*detecta si el dispositivo esta de forma vertical*/
+	.cont{ visibility:hidden;}
+	#cerrar{ display:inherit;}
+}
+@media screen and (max-width:1100px){
+	#modal{
+		width:40%;
+		left:30%;
+	}
+}
+@media screen and (max-width:800px){
+	#modal{
+		width:60%;
+		left:20%;
+	}
+}
+@media screen and (max-width:600px){
+	#modal{
+		width:80%
+		left:10%;
+	}
+}
+@media screen and (max-width:420px){
+	.cont{visibility:hidden;}
+	#modal{box-shadow:0px 0px 18px 1px;}	
+	#cerrar{display:inherit;}
+	#textarea{ height:60px;}
+}
+@media screen and (max-width:400px){
+	#modal{
+		width:95%;
+		left:2.5%;
+	}
+	#cerrar{display:inherit;}
+	#email{ font-size:70%;}
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/	
+@media screen and (max-width:320px), (max-width:533px){									/**/
+/*hace que se ejecuten las sentencias independientemente de la orientacion del dispositivo*/
+	#modal{
+		font-size:80%; 
+		width:100%;
+		left:0%;
+		top:10px;
+		padding:5px;
+		/*display:block;*/
+	}
+	#cerrar{display:inherit;}
+	#textarea{ height:60px;}
+	#bt_submit{padding:10px;font-size:14px;}	
+}
+
+/*+++++RESPONSIVE INDEX Y INICIO+++++*/
+@media screen and (max-width: 1300px){
+	div#contenedor{
+		width: 100%;
+	}
+	header{
+		width: 100%;
+	}
+	header nav{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 850px){
+	.logo{
+		display: none;
+		visibility: hidden;
+		width: 1px;
+	}
+	.particula{
+		width:100%;
+		position:inherit;
+		height:100px;
+		left:0;
+		float:left;
+		margin-top:80px;
+	}
+	header{
+		width:100%; 
+		margin-top:5px;
+	}
+	header nav{
+		margin: 0;
+		position:fixed;
+		width:70%;
+		height:50%;
+	}
+	header nav ul{
+		text-align:left;
+		display:inherit;
+		background-color:#000;
+	}	
+	header nav ul li{
+		float:none;
+		display:block;
+		border-bottom:1px solid rgba(41,89,100, 0.5);
+	}
+	.menu_bar{
+		display:block;	
+		width:100%;	
+	}
+	.menu_bar .bt_menu{
+		display:block;
+		padding:20px;
+		color:#FFF;
+		background-color:#000;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;		
+	}
+	.icon-menu{
+		float:right;
+		font-size:25px;
+	}
+	#base{
+		margin-top: 5px;
+	}
+}
+@media screen and (max-width: 700px){
+	.c_img .banner{
+		margin: -15% 30% 0% 0%;
+		font-size: 50px;
+	}
+}
+/*+++++++++++SCREEN MOVILES++++++++++++*/
+@media screen and (max-width: 420px){
+	body#index{
+		background-size: 4px;
+	}
+	#index header nav ul{
+		width: 100%;
+	}
+	#index header nav ul li a{
+		text-align:center;
+	}
+	.particula{ 
+		width:92%; 
+		height:500px;
+		position: absolute;
+		left:4%;
+		z-index: 2;
+	}
+	#modal{
+		position: fixed;
+	}
+	body#index .ya, body#index .grandioso, body#index .paquete{
+		display: none;
+	}
+	article.encabezado{
+		width: 90%;
+		font-size: 17px;
+		margin: -450px 5% 0 5%;
+		color: rgb(210,210,210);
+	}
+	article.encabezado p:first-child{
+		font-size: 27px;
+		border-bottom: none;
+	}
+	div.c_img, div.banner{
+		margin-top: 40px;
+		height: 600px;
+	}
+	div a[ident^="paso"]{
+		font-size: 15px;
+	}
+	a[ident^="paso2"]{
+		float: right;
+		background-color: rgb(36,219,50);
+	}
+	div.animacion{
+		width: 100%;
+		height: 525px;
+	}
+	div img[src^="img/animacion-adesogs5.gif"],div.anuncio{
+		width: 100%;
+		float: left;
+		margin-top: 78%;
+		z-index: 0;
+	}
+	div.anuncio{
+		margin-top: 0%;
+	}
+	span.a2{
+		left: 50%;
+	}
+	span.a3{
+		top: 10%;
+	}
+	span.a5{
+		top: 20%;
+	}
+	span.a6{
+		left: 30%;
+	}
+	span.a7{
+		top: 15%;
+	}
+	span.a12{
+		left: 10%;
+	}
+	span.a13{
+		top: 30%;
+	}
+	span.a14{
+		top: 15%;
+	}
+	span.a16{
+		top: 20%;
+		font-size: 40px;
+	}
+	span.a17{
+		top: 3%;
+	}
+	span.a-btn{
+		top: 40%;
+		width: 60%;
+		left: 20%;
+	}
+	div._uno{
+		width: 30%;
+		top: 91%;
+		left: 35%;
+		font-size: 12px;
+		padding: 3px;
+	}
+	span.uno{ 
+	top: 96%;
+	height: 6%;
+	left: 0;
+	border-radius: 0 100px 0 0;
+	}
+	span.dos{ 
+	top: 96%;
+	right: 0%;
+	height: 6%;
+	}
+	body #i_contenedor{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 30px;
+	}	
+	section#i_contenedor p:first-child{
+		padding: 40px 20px;
+		text-align: justify;
+		font-size: 18px;
+	}
+	section aside.articulo{
+		width: 92%;
+		margin: 0 0 15px 4%;
+		box-shadow: 1px 0px 10px 3px rgba(125,125,125, 0.7);
+	}
+	body section.inicio2{
+		width: 100%;
+		margin: 20px 0 0 0;
+	}
+	body section .img-visita{
+		width: 92%;
+		margin-left: 4%;
+		border-radius: 3px;
+	}
+	body section.inicio2 a{
+		width: 80%;
+		margin: 10%;
+		padding: 10px 0;
+	}
+	.inicio2 .img4_b{
+		font-size:12px;
+	}
+	.footer1{
+		width: 82%;
+		margin-bottom: 10px;
+	}
+	h5{
+		display: none;
+	}
+	.footer2{
+		margin:0 0 0 18%;
+	}
+	img[alt^="logo_adesogs"]{
+		width: 50%;
+		margin-left: 25%;
+	}	
+}
+@media screen and (max-width: 350px){
+	body#index{
+	background-size: 50px;
+	}
+	.menu_bar .bt_menu, .icon-menu{
+	font-size: 18px;
+	}
+	header nav ul li a{
+	font-size: 14px;
+	}
+	footer{
+		font-size: 10px;
+	}
+}
+/*+++++++RESPONSIVE PORTAFOLIO+++++++*/
+@media screen and (max-width: 840px){
+	body .porta2{
+		font-size: 17px;
+	}
+	body .porta3{
+		width: 70%;
+		margin: 70px 0 70px 15%;
+	}
+}
+@media screen and (max-width: 630px){
+	body .porta2{
+		font-size: 12px;
+	}
+	body table th {
+		font-size: 12px;
+	}	
+	body table .col1, body table .col2, body table .col3, body table .novedad, body .porta3{
+		font-size: 11px;
+	}
+}
+@media screen and (max-width: 550px){
+	section#principal{
+		padding: 0;
+	}
+	div#contenedor{
+		width:100%;
+	}
+}
+@media screen and (max-width: 430px){
+	body .porta1 img{
+		width: 50%;
+		margin:0 25% 0 25%;
+	}
+	body .porta2{
+		width: 100%;
+		font-size: 17px;
+		margin:10px 0;
+		text-align: center; 
+}
+	body table th {
+		font-size: 10px;
+	}	
+	body table td{
+		padding: 1px 1px 1px 0;
+	}
+	body .porta3{
+		width: 92%;
+		margin: 10px 0 15px 4%;
+	}
+}
+@media screen and (max-width: 420px){
+	body .porta1 img{
+		width: 70%;
+		margin: 125px 0 0 15%;
+	}
+	body table{
+		width: 98%;
+		margin-left: 1%;
+	}
+}
+/*+++++++RESPONSIVE CLIENTES+++++++*/
+@media screen and (max-width: 850px){
+	body .clientes{
+		margin-top: 0;
+		font-size: 15px;
+	}
+	body .cont_client1{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 780px){
+	body .clientes{
+		margin-top: 0;
+		font-size: 13px;
+	}
+	body .cont_client1{
+		font-size: 15px;
+	}
+	 body .cont_client2:hover, body .cont_client3:hover, body .cont_client4:hover, body .cont_client5:hover, body .cont_client6:hover, body .cont_client7:hover, body .cont_client8:hover, body .cont_client9:hover{
+		background-color:#2980B9;
+		width: 99%;
+		margin: 0.5% 0% 0.5% 1%;
+		font-size: 15px;
+		font-weight: normal;
+		-webkit-transition: all  .2s;
+		-o-transition: all .2s;
+		-moz-transition: all .2s;
+	}
+}
+@media screen and (max-width: 670px){
+	body .clientes{
+		margin-top: 0;
+		font-size: 12px;
+	}
+	body .cont_client1{
+		font-size: 12px;
+	}
+	body .cont_client2:hover, body .cont_client3:hover, body .cont_client4:hover, body .cont_client5:hover, body .cont_client6:hover, body .cont_client7:hover, body .cont_client8:hover, body .cont_client9:hover{
+		background-color:#2980B9;
+		width: 99%;
+		margin: 0.5% 0% 0.5% 1%;
+		font-size: 12px;
+		font-weight: normal;
+		-webkit-transition: all  .2s;
+		-o-transition: all .2s;
+		-moz-transition: all .2s;
+	}
+}
+@media screen and (max-width: 490px){
+	body .clientes{
+		margin-top: 0;
+		font-size: 9px;
+	}
+	body .div1_d, body .div2_d, body .div3_d, body .div4_d, body .div5_d, body .div6_d, body .div7_d, body .div8_d, body .div9_d{
+		margin: 10px 0px;
+		text-align: right;
+	}
+	body .cont_client1{
+		font-size: 9px;
+	}
+	body .cont_client2:hover, body .cont_client3:hover, body .cont_client4:hover, body .cont_client5:hover, body .cont_client6:hover, body .cont_client7:hover, body .cont_client8:hover, body .cont_client9:hover{
+		background-color:#2980B9;
+		width: 99%;
+		margin: 0.5% 0% 0.5% 1%;
+		font-size: 9px;
+		font-weight: normal;
+		-webkit-transition: all  .2s;
+		-o-transition: all .2s;
+		-moz-transition: all .2s;
+	}
+
+}
+@media screen and (max-width: 420px){
+	body .client1 img{
+		width: 98%;
+		margin: 200px 0 100px 1%;
+	}
+}
+/*************NORMATIVIDAD**************/
+@media screen and (max-width: 420px){
+	body table.t_norma{
+		width: 98%;
+		margin-left: 1%;
+	}
+	body section.norma1{
+		width: 96%;
+		margin-left: 2%;
+		height: 500px;
+		background-position: 0;
+		background-size: 100%;
+	}
+}
+/*************NOSOTROS*****************/
+@media screen and (max-width: 420px){
+	body img[alt^="adesogs-g"]{
+	width: 90%;
+	margin: 150px 0 80px 5%;
+	}
+	body div img[alt^="nosotros"]{
+	width: 70%;
+	margin-left: 15%;
+	}
+	body div.flotante{
+		position: initial;
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	body div div.casa{
+	-webkit-transition: all .9s;
+	-moz-transition: all .9s;
+	-ms-transition: all .9s;
+	-o-transition: all .9s;
+	transition: all .9s;
+	width: 100%;
+	}
+	body div div.icon-portafolio{
+		border-top: 1px solid #fff;
+	}
+	body div div.casa:hover{
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+	}
+	body .n_contenedor{
+		width: 100%;
+		margin-left: 0%;
+	}
+	body .primer{
+		width: 94%;
+		margin-left: 3%;
+		text-align: justify;
+	}
+	body .mision,body .vision,body .politica{
+		width: 100%;
+	}
+}
+/**********RESOLUCION 380Px**********/
+@media screen and (max-width: 380px){
+	body#index{
+		background-size: 4px;
+	}
+	div img[src^="img/animacion-adesogs5.gif"]{
+		margin-top: 90%;
+	}
+	div ._uno{
+		width: 60%;
+		left: 20%;
+		top: 94%;
+	}
+	div ._uno a{
+		padding: 3px 0;
+	}
+	body aside.articulo{
+		height: 270px;
+	}
+	body a[ident^="paso"]{
+		font-size: 10px;
+	}
+	body img[alt^="adesogs-g"]{
+		margin: 130px 0 130px 5%;
+	}
+}

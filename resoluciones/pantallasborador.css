@@ -1,0 +1,156 @@
+@charset "utf-8";
+/*CONDICIONALES PARA LOS TIPOS DE PANTALLAS O RESOLUCIONES*/
+
+@media screen and (max-width:800px){
+	.particula{
+		width:100%;
+		position:inherit;
+		height:70px;
+		left:0;
+		float:left;
+		margin-top:80px;
+		}
+	header{width:92%; margin-top:5px;}
+	header nav{
+		margin:0;
+		position:fixed;
+		width:70%;
+		height:100%;
+		}
+	header nav ul{
+		text-align:left;
+		display:inherit;
+		background-color:#000;
+		}	
+	header nav ul li{
+		float:none;
+		display:block;
+		border-bottom:1px solid rgba(41,89,100, 0.5);
+		}
+	.menu_bar{
+		display:block;
+		width:100%;	
+		}
+	.menu_bar .bt_menu{
+		display:block;
+		padding:0 3% 0 3%;
+		
+		color:#FFF;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;		
+		}
+	.menu_bar .bt_menu{background-color:#000;}	
+	.icon-menu{
+		float:right;
+		font-size:25px;
+		}
+	#base{margin-top:5px;}
+	aside#aside{width:100%;}
+	
+/*++++++++esta es la propiedad aplicada ala paginas externas++++++++*/
+	#base #principal section{ width:50%;}
+	#base #principal aside{ width:50%; margin-top:0;}
+	
+	}
+
+@media screen and (max-width:480px){
+	div#contenedor{ width:100%;}
+	header{width:100%; margin:0;}
+	header nav{
+		margin:-4%;
+		position:fixed;
+		width:85%;
+		height:100%;
+		}
+	header nav ul{
+		text-align:left;
+		display:inherit;
+		}	
+	header nav ul li{
+		float:none;
+		display:block;
+		border-bottom:1px solid rgba(41,89,100, 0.5);
+		}
+	.menu_bar{
+		display:block;
+		width:100%;
+		}
+	.menu_bar .bt_menu{
+		display:block;
+		padding:20px;
+		background-color:#000;
+		color:#FFF;
+		text-decoration:none;
+		font-weight:bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;		
+		}
+		
+	.menu_bar #cerrar{
+		float:right;
+		font-size:40px;
+		}
+	header nav ul li a #cerrar{
+	margin-right:10px;
+	float:left;
+	}
+	}
+	
+/******RESPONSIVE DEL ANCHO PARA LA VENTANA MODAL "CONTACTO"********/
+@media (max-width:736px) and (orientation:landscape){/*detecta si el dispositivo esta de forma vertical*/
+	.cont{ visibility:hidden;}
+	#cerrar{ display:inherit;}
+	}
+@media screen and (max-width:1100px){
+	#modal{ width:40%;
+	left:30%;}
+	}
+@media screen and (max-width:800px){
+	#modal{ width:60%;
+	left:20%;}
+	}
+@media screen and (max-width:600px){
+	#modal{ width:80%;
+	left:10%;
+	}
+	}
+@media screen and (max-width:420px){
+	.cont{visibility:hidden;}
+	#modal{box-shadow:0px 0px 18px 1px;}	
+	#cerrar{display:inherit;}
+	#textarea{ height:60px;}
+	}
+@media screen and (max-width:400px){
+	#modal{ width:95%;
+	left:2.5%;
+	}
+	#cerrar{display:inherit;}
+	#email{ font-size:70%;}
+	}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/	
+@media screen and (max-width:320px), (max-width:533px){									/**/
+/*hace que se ejecuten las sentencias independientemente de la orientacion del dispositivo*/
+	#modal{
+	font-size:80%; 
+	width:100%;
+	left:0%;
+	top:10px;
+	padding:5px;
+	display:block;
+	}
+	#cerrar{display:inherit;}
+	#textarea{ height:60px;}
+	#bt_submit{padding:10px;font-size:14px;}	
+}
+
+/******RESPONSIVE DEL ALTO PARA LA VENTANA MODAL "CONTACTO"*******
+modificar cuando este en modo vertical
+@media (max-width:"aqui se coloca el ancho que tiene en modo horizontal") and (orientation: landscape)
+
+*/

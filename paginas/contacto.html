@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="../iconos/iconos.css"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+<link rel="stylesheet" href="../estilos/contacto.css"/>
+<link rel="stylesheet" href="../resoluciones/pantallas.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="../js/contacto.js"></script>
+<title>Contacto</title>
+</head>
+<body>
+<section id="c_contenedor" class="cont">
+</section>
+ 
+ <section id="modal" class="mod">
+ <div>
+ <span id="cerrar" class="icon-cerrar"></span><h1>CONTACTENOS</h1>
+ </div>
+ 	<form action="../php/mensaje.php" class="formulario" name="formulario_contato" method="post">
+    
+    <!--****************creado un grupo de inputs****************-->
+    	<section class="input-group">
+        <!--el label lu utilizo para que me al hacer click sobre el me haga focus en el input-->
+        <label class="label1" for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" name="nombre">    
+        </section>
+        <section class="input-group">
+        <label class="label2" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="ejemplo@server.com">        
+        </section>
+        <section class="input-group">
+        <label class="label3" for="telefono">Telefono:</label>
+        <input type="text" id="telefono" name="telefono">        
+        </section>
+        <section class="input-group">
+        <label class="label4" for="asunto">Asunto:</label>
+        <select name="asunto" id="asunto">
+        	<option value="Pregunta" selected>Pregunta</option>
+        	<option value="Sugerencia">Sugerencia</option>
+            <option value="Queja">Queja</option>
+            <option value="Reclamo">Reclamo</option>
+        </select>        
+        </section>
+     <!--********creado un grupo textarea con dos clases*******-->
+        <section class="input-group">
+        <label class="label5" for="textarea">Mensaje:</label>
+        <textarea name="textarea" id="textarea"></textarea>        
+        </section>
+     <!--******creado un grupo de checkbox con dos clases*******-->
+      	<section class="input-group">        
+        <input type="checkbox" id="terminos" name="terminos" value="true">
+        <label class="label6" for="terminos">Acepto los terminos y condiciones</label>
+        </section>
+        <section class="input-group">
+       	<input type="submit" id="bt_submit" value="Enviar">
+        </section>
+    </form>
+  </section>
+<a id="pop" href="#">Vamos</a> 
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</body>
+</html>

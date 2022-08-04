@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px;
+padding:0px;}
+
+@font-face {
+    font-family: "ejecutiva";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fuentes/ejecutiva.ttf") format("truetype");
+}
+@font-face {
+    font-family: "estilizada";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fuentes/cursiva-estilizada.ttf") format("truetype");
+}
+@font-face {
+    font-family: "animada";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fuentes/amano.ttf") format("truetype");
+}
+@font-face {
+    font-family: "cool";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fuentes/add-Jazz.ttf") format("truetype");
+}
+html,#index{
+	/*background-color:#037e5C;usar el actual o #037e8C*/
+	font-family:"Courier New", Courier, monospace;
+	background-attachment: fixed;
+	}
+body#index{
+	background-image:url(../textura/gris1/gris2.png);
+	background-repeat: repeat;
+}
+.oculto{display: none;}
+.pop{
+	cursor: pointer;
+}
+div#contenedor{
+	width:100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin:0 auto;
+	max-width:1500px;
+	overflow:hidden;
+	}
+header{
+	background: -moz-linear-gradient(left, rgba(255,255,255,0.79) 0%, rgba(218,219,220,0.79) 9%, rgba(9,13,20,0.91) 60%, rgba(0,0,0,0.95) 78%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,0.79) 0%,rgba(218,219,220,0.79) 9%,rgba(9,13,20,0.91) 60%,rgba(0,0,0,0.95) 78%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,0.79) 0%,rgba(218,219,220,0.79) 9%,rgba(9,13,20,0.91) 60%,rgba(0,0,0,0.95) 78%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9ffffff', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+	border-bottom:3px solid rgb(0,0,0);
+	width:100%;
+	position:fixed;
+	max-width:3000px;
+	margin:0px 0;
+	z-index:20;
+	float: left;
+	}
+#base{/*Esto agrupa el section y el aside para una mejor organizacion*/
+	width:100%; 
+	float:left;
+	}	
+section#principal{
+	width:100%;
+	float:left;
+	box-sizing:border-box;
+	}
+
+aside#aside{
+	width:35%;
+	float:left;	
+	padding:20px;
+	box-sizing:border-box;
+	/*border-bottom:1px solid rgba(0,0,0,0.3);*/
+	}
+	
+footer{
+	clear:both;
+	width:100%;
+	border-top:1px solid rgba(204,204,204,0.2);
+	color:#FFF;
+	float:left;
+	padding:20px;
+	box-sizing:border-box;
+	margin-top:20px;
+	font-size: 12px;
+	background: url(../textura/foot/foot1.png);
+	background-repeat: repeat;
+	}
+footer h5{
+	width: 20%;
+	margin-bottom: 3px;
+	float: left;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 15% 0 65%;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+.footer1 ul, .footer2 ul, .footer3 ul{
+	list-style: none;
+}
+.footer2 ul li a, .footer3 ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.footer2 ul li a:hover, .footer3 ul li a:hover{
+	text-decoration: underline;
+}
+footer div{
+	width: 10%;
+	float: left;
+}
+.footer1{
+	width: 40%;
+	margin-left: 8%;
+	float: left;
+}
+.footer2{
+	width: 25%;
+	float:left; 
+}
+.footer3{
+	margin-left: 5%;
+	width: 12%;
+	float: left;
+}
+footer p{
+	width: 100%;
+	margin-top: 10px;
+	float: left;
+	text-align:center;
+	color:#D3D3D3;
+}
+.visitas{
+background-color: #000;
+color: #ccc;
+letter-spacing: 3px;
+}
+img[alt^="logo_adesogs"]{
+	width: 20%;
+	margin-left: 65%;
+}

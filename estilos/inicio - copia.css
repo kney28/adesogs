@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body#inicio{
+	margin:0;
+	padding:0;
+}
+.banner{
+	opacity: 0.7;
+	position: relative;
+	z-index: 0;
+	box-shadow: 2px 4px 10px 1px;
+	width: 100%;
+}
+.bien{
+	margin: -15% 0 10% 0;
+	color: #fff;
+	font-size: 80px;
+	position: absolute;
+	z-index: 1;
+}
+#i_contenedor{
+	width: 75%;
+	margin-left: 10.25%;
+	position: relative;
+	z-index: 3;
+}
+section.inicio{
+	width: 100%;
+	float:left;
+	margin: 10px 0 20px 0;
+	text-align: center;
+	border-top: 2px solid rgba(120,120,120,0.6);
+}
+section.inicio2{
+	width:100%;
+	float:left;
+	text-align:justify;
+	margin: 0px 0 30px 0;
+	padding: 0 0 0 5px;
+	border-top: 2px solid rgba(120,120,120,0.6);
+	}
+aside.inicio1, aside.inicio2, aside.inicio3{
+	width:30%;
+	float:left;
+	background-color: #fff;
+	padding: 5px;
+	box-sizing: border-box;
+	margin:0 1.6% 30px 1.6%;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 4px 6px 15px 3px rgba(125,125,125, 0.7);
+	}
+.img1 img, .img2 img, .img3 img{
+	width: 100%;
+}
+.img4{
+	background-image: url(../img/banner.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+	opacity: 0.8;
+}
+.img4_a{
+	padding: 50% 0 0 2%;
+	font-size: 26px;
+	color: rgb(20,120,120);
+	box-sizing: border-box;
+	margin-top:10px;
+}
+.img4_b{
+	font-size:18px;
+	margin-top: 20px;
+	opacity: 0.9;
+}
+#i_contenedor h4{
+	border-bottom:1px solid #ccc;
+}
+#mas1, #mas2, #mas3{
+	display: none;
+}
+#i_contenedor label{
+	font-size: 12px;
+}
+.inicio1 label, .inicio2 label, .inicio3 label{
+	color: blue;
+}
+.inicio1 p, .inicio2 p, .inicio3 p{
+	display: none;
+}
+.inicio1 input[type="checkbox"]:checked + p, .inicio2 input[type="checkbox"]:checked + p, .inicio3 input[type="checkbox"]:checked + p{
+	display: inherit;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body#client{ 
+	margin:0; 
+	padding:0;
+}
+.client1 img{
+	width: 70%;
+	margin-top: 90px;
+	margin-left:15%;
+}
+.clientes{
+	display: none;
+	width:92%;
+	margin-left: 4%;
+	margin-top: 100px;
+}
+.cont_client1{
+	width: 100%;
+	float: left;
+	background-color:#839192;
+	color: #fff;
+	text-decoration: none;
+	margin: 0% 0% 1% 0%;
+	font-size: 20px;
+}
+.cont_client2, .cont_client3, .cont_client4, .cont_client5, .cont_client6, .cont_client7, .cont_client8, .cont_client9{
+	width: 100%;
+	float: left;
+	background-color:#2C3E50;
+	color: #fff;
+	text-decoration: none;
+	margin: 0.3% 0%;
+
+	}
+.cont_client2:hover, .cont_client3:hover, .cont_client4:hover, .cont_client5:hover, .cont_client6:hover, .cont_client7:hover, .cont_client8:hover, .cont_client9:hover{
+	background-color:#2980B9;
+	width: 99%;
+	margin: 0.5% 0% 0.5% 1%;
+	font-size: 18px;
+	font-weight: bold;
+	-webkit-transition: all  .2s;
+	-o-transition: all .2s;
+	-moz-transition: all .2s;
+}
+
+.div1_a, .div2_a, .div3_a, .div4_a, .div5_a, .div6_a, .div7_a, .div8_a, .div9_a{
+	width: 50%;
+	float: left;
+	padding: 10px 0px 0px 5px;
+	box-sizing: border-box;
+}
+.div1_b, .div2_b, .div3_b, .div4_b, .div5_b, .div6_b, .div7_b, .div8_b, .div9_b{
+	width: 15%;
+	float:left;
+	margin: 10px auto;
+	text-align: center;	
+}
+.div1_c, .div2_c, .div3_c, .div4_c, .div5_c, .div6_c, .div7_c, .div8_c, .div9_c{
+	width: 15%;
+	float: left;
+	margin: 10px auto;
+	text-align: center;	
+}
+.div1_d, .div2_d, .div3_d, .div4_d, .div5_d, .div6_d, .div7_d, .div8_d, .div9_d{
+	width: 20%;
+	float:left;
+	margin: 10px auto;
+	text-align: center;	
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";
+html,body#normatividad{
+	margin:0;
+	padding: 0;
+}
+.norma1{
+	width: 60%;
+	height: 600px;
+	margin-left: 20%;
+	margin-top: 80px;
+	background-image: url("../img/normatividad.png");
+	background-position: 50% 180%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.t_norma{
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 30px;
+	position: relative;
+	z-index: 2;
+}
+negra{
+	font-weight: bold;
+}
