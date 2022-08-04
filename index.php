@@ -82,14 +82,14 @@ else if ($mobile_browser > 0) {
 // Si es dispositivo mobil has lo que necesites
    //print 'es un mobil';
 }
-else {
+/*else {
 // Si es ordenador de escritorio has lo que necesites
 //print 'es un pc, registro añadido...';
 $ar= fopen("visitas_pc.txt","a") or die ("Problemas en la creacion del archivo");
 fwrite($ar,"1 PC registrado".PHP_EOL);
 fclose($ar);
 //header('Location: index.html)');
-}  
+} */ 
 ?>
 <!--Aqui comienza el formulario de contacto, el formulario se abre mediante el llamado pop -->
 <section id="c_contenedor" class="cont">
