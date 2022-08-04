@@ -1,5 +1,5 @@
 <?php
-$fecha=date("y-m-d");
+/*$fecha=date("y-m-d");
 $archivo="visitas.txt";
 $abre = fopen($archivo, "r"); 
 // Leemos el contenido del archivo 
@@ -9,5 +9,5 @@ fclose($abre);
 $abre=fopen($archivo, "w");
 $total=$total+1;
 fwrite($abre, $total); 
-fclose($abre); 
+fclose($abre);*/ 
 ?>
