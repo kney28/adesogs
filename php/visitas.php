@@ -1,4 +1,5 @@
 <?php
+$total=0;
 /*$fecha=date("y-m-d");
 $archivo="visitas.txt";
 $abre = fopen($archivo, "r"); 
